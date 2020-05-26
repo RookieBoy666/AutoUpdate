@@ -19,7 +19,7 @@ namespace ExceTransforCsv
         public Form1()
         {
             InitializeComponent();
-            Version version = new Version();
+      
            label5.Text= Assembly.GetExecutingAssembly().GetName().Version.ToString();//Assembly.LoadFrom(assemblyPath).GetName().Version;
 
         }

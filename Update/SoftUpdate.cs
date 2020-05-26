@@ -136,7 +136,7 @@ namespace Update
         void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
 
-            //System.Diagnostics.Debug.WriteLine(e.ProgressPercentage);
+           System.Diagnostics.Debug.WriteLine(e.ProgressPercentage);
             COMMON.CommonMethod.autostep = e.ProgressPercentage;
             //Thread.Sleep(100);
 
